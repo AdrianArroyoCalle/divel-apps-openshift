@@ -60,7 +60,7 @@ public class Sudoku extends HttpServlet {
 		int nuevonumero=rnd.nextInt(8)+1;
 		//Hasta que la comprobacion no sea igual a 81 o haya algun repetido
 		for(comprobacion=0;comprobacion==81 || repetido==true;comprobacion++){
-			//Si línea en ese puesto es igual al num
+			//Si linea en ese puesto es igual al num
 			if(linea[primero][segundo]==nuevonumero){
 				repetido=true; //Es repetido
 				
@@ -76,7 +76,7 @@ public class Sudoku extends HttpServlet {
 		comprobacion=0;
 		primero=0; segundo=0;
 		for(comprobacion=0;comprobacion==81 || repetido==true;comprobacion++){
-			//Si línea en ese puesto es igual al num
+			//Si linea en ese puesto es igual al num
 			if(columna[primero][segundo]==nuevonumero){
 				repetido=true; //Es repetido
 				
