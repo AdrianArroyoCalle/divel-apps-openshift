@@ -14,6 +14,16 @@
                   <servlet-name>health</servlet-name>
                   <url-pattern>/health</url-pattern>
          </servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Licencias</servlet-name>
+		<servlet-class>com.divel.online.apps.Licencias</servlet-class>
+	</servlet>
+         <servlet-mapping>
+                  <servlet-name>Licencias</servlet-name>
+                  <url-pattern>/licencias</url-pattern>
+         </servlet-mapping>
+	
          
 </web-app>
 
