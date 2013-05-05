@@ -58,7 +58,7 @@ public class Sudoku extends HttpServlet {
 	while(hecho==false){
 		//Se crea un num aleatorio
 		int nuevonumero=rnd.nextInt(8)+1;
-		//Hasta que la comprobacion no sea igual a 81 o haya algun repetido
+		//Hasta que la comprobación no sea igual a 81 o haya algún repetido
 		for(comprobacion=0;comprobacion==81 || repetido==true;comprobacion++){
 			//Si línea en ese puesto es igual al nº
 			if(linea[primero][segundo]==nuevonumero){

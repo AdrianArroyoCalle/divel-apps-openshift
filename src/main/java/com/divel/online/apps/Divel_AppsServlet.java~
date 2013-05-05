@@ -61,7 +61,7 @@ public class Divel_AppsServlet extends HttpServlet {
 		resp.getWriter().println("</BODY></HTML>");
 		if(infoAppsx=="201" && infoAppsy=="106")
 		{
-			resp.getWriter().println("javascript:alert(\"Para mas informacion visita http://sites.google.com/site/divelmedia.\")");
+			resp.getWriter().println("javascript:alert(\"Para más información visita http://sites.google.com/site/divelmedia.\")");
 		}
 		}else{
 			resp.setContentType("text/html");

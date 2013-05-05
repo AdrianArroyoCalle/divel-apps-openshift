@@ -59,14 +59,14 @@ public class DivelAccounts extends HttpServlet {
 			
 			Entity div=new Entity("DIVEL-ACCOUNTS",email);
 			div.setProperty("VecesUsado", 0); //Numero de usos de DivAccount, proporciona ventajas
-			div.setProperty("Azpazeta", 0); //Ha registrado Azpazeta?
-			div.setProperty("DivCity", 0); //Ha registrado DivCity?
-			div.setProperty("LicenseDCM", 0); //Ha comprado licencia de DivCity Manager?
-			div.setProperty("Bloco", 0); //Ha registrado Bloco?
-			div.setProperty("Cheat", 0); //Ha comprado trucos?
+			div.setProperty("Azpazeta", 0); //¿Ha registrado Azpazeta?
+			div.setProperty("DivCity", 0); //¿Ha registrado DivCity?
+			div.setProperty("LicenseDCM", 0); //¿Ha comprado licencia de DivCity Manager?
+			div.setProperty("Bloco", 0); //¿Ha registrado Bloco?
+			div.setProperty("Cheat", 0); //¿Ha comprado trucos?
 			div.setProperty("NumeroBuys",0); //Numero de veces que ha gastado dinero
-			div.setProperty("Developer", 0); //Es desarrollador?
-			div.setProperty("DivSO", 0); //Ha registrado Divel SO?
+			div.setProperty("Developer", 0); //¿Es desarrollador?
+			div.setProperty("DivSO", 0); //¿Ha registrado Divel SO?
 			div.setProperty("Karma", 0); //Numero de karma
 			div.setProperty("DivCoins", 0); //Numero de DivCoins
 			div.setProperty("DivelKey1",DivelKey(1,email)); //Clave de Divel Key v1
@@ -127,7 +127,7 @@ public class DivelAccounts extends HttpServlet {
 				SendEmail(email,"Congratulations, now you have more DivCoins<br>Your DivCoins: "+div.getProperty("DivCoins")+"<br><br>You can spend your DivCoins in:<br>*DivCity Manager<br>*BigBen building for DivCity");
 			}
 			if(req.getParameter("ChangeKarmaForDivCoins")!=null){
-				//Comprobar Karma; 1000 Karma= 100 DivCoins = 1
+				//Comprobar Karma; 1000 Karma= 100 DivCoins = 1 €
 				div.setProperty("VecesUsado",((Long)div.getProperty("VecesUsado"))+1);
 				div.setProperty("Karma", ((Long)div.getProperty("Karme"))-1000);
 				div.setProperty("DivCoins", ((Long)div.getProperty("DivCoins"))+100);
