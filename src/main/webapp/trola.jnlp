@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.5+"
+  codebase="http://divelapps.appspot.com/"
+  href="trola.jnlp"
+>
+<!-- Información general de nuestra aplicación -->
+<information>
+  <title>Trola</title>
+  <vendor>Divel</vendor>
+  <homepage href="http://sites.google.com/site/divelmedia" />
+  <description>Trola Online Launcher</description>
+  <!-- <icon href="images/swingset2.jpg"/> -->
+  <shortcut online="false">
+      <desktop/>
+      <menu submenu="Divel Games"/>
+    </shortcut>
+</information>
+<offline-allowed/>
+<!-- Se establecen los permisos para la aplicación dentro del sandbox -->
+<security>
+  <!-- <all-permissions/> -->
+  <!-- <j2ee-application-client-permissions/> -->
+</security>
+<!--
+Se listan los recursos necesarios para la ejecución de la aplicación,
+como la versión  mínima de Java requerida, la ubicación del JAR de nuestra aplicación,
+además de las librerías externas que se usarán.
+-->
+<resources>
+  <j2se version="1.6+" />
+  <jar href="/trola.jar"/>
+</resources>
+<!-- Se establece el nombre de la clase que contiene el método main() -->
+<application-desc main-class="com.divel.launcher.Main" />
+</jnlp>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<!-- <link rel="stylesheet" href="css/style.css"> -->
+<title>Divel Apps Manager</title>
+<script src="manager.js"></script>
+</head>
+<body onload="Loader();">
+<div>
+	<h1>Divel Apps Manager</h1>
+	<h3>Admin your Divel Apps installation from here</h3>
+</div>
+<section>
+	<p>Current operation: <label for="status" id="currentoperation">Nothing</label><br>
+	<progress max="100" id="status"></progress></p>
+</section>
+<section>
+	<h2>Master Key: <input type="text" id="masterkey"></h2>
+</section>
+<article id="main">
+	<section>
+		<h2>Divel Feed and Divel Newsletter</h2>
+		<h4>Checkout the <a href="/feed">Atom Feed</a> </h4>
+		<p>Create Atom Feeds and send emails to all registered users</p>
+		<label for="title">Title:</label><input type="text" id="title">
+		<label for="author">Author:</label><input type="text" id="author">
+		<label for="htmltext">HTML Text:</label><br><textarea id="htmltext"></textarea><br>
+		<label for="sendmail">Send Mail:</label><input type="checkbox" id="sendmail" value="1">
+		<button id="publishnew">Publish</button>
+		
+		
+	</section>
+	<section>
+		<h2>Divel Licencias</h2>
+		<p>Manage UUID of Divel non-opensource products</p>
+		<label for="uuid">UUID:</label><input type="text" id="uuid">
+		<button id="useuuid">Use UUID</button>
+	</section>
+	<section>
+		<h2>Divel Master Key</h2>
+		<h4>Only works on first running</h4>
+		<p>Manage the MasterKey for operations not secure</p>
+		<label for="newmasterkey">New MasterKey:</label><input type="text" id="newmasterkey">
+		<button id="setmasterkey">Set MasterKey</button>
+	</section>
+	<section>
+		<h2>Divel Redirecter</h2>
+		<h4>This operation requires MasterKey Set</h4>
+		<p>Manage the id of Divel Redirecter</p>
+		<label for="idredirecter">ID of Redirecter:</label><input type="text" id="idredirecter">
+		<label for="urlredirecter">URL of redirection</label><input type="text" id="urlredirecter">
+		<blockquote>This operation overrides the URL if the same ID it's used</blockquote>
+		<button id="setredirecter">Create redirection</button>
+	</section>
+	<!-- <section>
+		<h2>Divel Feedback</h2>
+		<h4>Simulate implementation of Divel Feedback API</h4
+		<p>Get valorations of the system like an App Store</p>
+		<label for=""
+	</section> -->
+	<!-- SECTION DIVEL UPDATER -->
+
+</article>
+
+<footer>
+
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+= What is Divel Apps =
+
+Divel Apps is a server program that manage Divel Network system.
+
+
+= Why I need to use Divel Apps =
+
+If you need to make a Divel Network into a LAN, bussines or game club you need this. 
+
+= Howto install Divel Apps =
+
+# Install a operating system like RedHat Enterprise, Divel Server, CentOS, SUSE
+
+# Install Java or OpenJDK. You can use version 6 or 7.
+
+# Get code from Divel Apps. See Source tab.
+
+# Get AppEngine SDK from Google Developers.
+
+# Run it on Tomcat or Jetty
+
+# Try it in a browser

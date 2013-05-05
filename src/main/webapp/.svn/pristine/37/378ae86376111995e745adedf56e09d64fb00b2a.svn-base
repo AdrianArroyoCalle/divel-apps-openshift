@@ -1,0 +1,47 @@
+@CHARSET "ISO-8859-1";
+@import url('http://fonts.googleapis.com/css?family=Ubuntu:bi');
+@import url('http://fonts.googleapis.com/css?family=Ubuntu');
+body {
+        background: url(grain.png) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-align:center;
+}
+h1{
+	font-family: 'Ubuntu', italic;
+	font-style: italic;
+
+
+
+}
+p{
+	font-family: 'Ubuntu',normal;
+	font-style: normal;
+
+}
+.tuenti{
+	background: url(tuenti.png);
+	width:64px;
+	height:64px;
+
+
+}
+.google{
+	background: url(google.png);
+	width:64px;
+	height:64px;
+
+
+}
+.twitter{
+	background: url(twitter.png);	
+	width:64px;
+	height:64px;
+}
+.facebook{
+	background: url(facebook.png);	
+	width:64px;
+	height:64px;
+}
