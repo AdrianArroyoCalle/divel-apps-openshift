@@ -10,6 +10,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.6</maven.compiler.source>
     <maven.compiler.target>1.6</maven.compiler.target>
+	<version.com.google.gae.api>1.7.0</version.com.google.gae.api>
   </properties>
   <dependencies>
     <dependency>
