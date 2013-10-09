@@ -1,0 +1,6 @@
+language: java
+script: mvm package -Popenshift
+jdk:
+  - oraclejdk7
+  - openjdk7
+  - openjdk6
