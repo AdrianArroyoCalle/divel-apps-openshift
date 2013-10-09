@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/AdrianArroyoCalle/divel-apps-openshift.png)](https://travis-ci.org/AdrianArroyoCalle/divel-apps-openshift)
 # Running CapeDwarf on OpenShift
 
 Quickstart CapeDwarf application for OpenShift.
